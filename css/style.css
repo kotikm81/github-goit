@@ -1,7 +1,210 @@
-body {
-  font-size: 20px;
+body{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
 }
 
-body div {
-  font-size: 10px;
+
+/* STUDIO */
+:root{
+    --main-color:rgba(33, 33, 33, 1);
+    --secondary-color:rgba(33, 150, 243, 1);
+
+    --rare-color: rgba(117, 117, 117, 1);
+    --whitey-color:  rgba(255, 255, 255, 1);
+
+    --hero-bg-color:rgba(47, 48, 58, 1);
+    --team-bg-color: rgba(245, 244, 250, 1);
+}
+
+/* Logo  */
+.webstudio {
+    font-size: 26px;
+    font-family: Raleway, sans-serif;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.web {
+    color: var(--secondary-color);
+
+}
+.studio {
+    color: var(--main-color);
+
+}
+.studio-f{
+    color:var(--whitey-color) ;
+}
+
+
+/* Links About */
+.links-menu{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+}
+.links-menu:hover{
+    color: var(--secondary-color);
+
+}
+.links-menu:focus {
+    color: var(--secondary-color);
+
+}
+
+
+
+/* Contacts about */
+.contacts {
+    color: var(--rare-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    line-height: 16px;
+
+}
+.contacts:hover {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+.contacts:focus {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+
+/* HERO */
+.hero {
+    color: var(--whitey-color);
+    background-color: var(--hero-bg-color);
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.hero-title {
+    font-size: 40px;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+.hero-button{
+    background-color: var(--secondary-color);
+    color:var(--whitey-color);
+    border-radius: 4px;
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+/* HEADING */
+.heading{
+            letter-spacing: 0.03em;
+}
+.heading-title{
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 16px;
+    font-size: 14px;
+}
+.heading-info{
+    color: var(--rare-color);
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+}
+
+/* Our Classes */
+.classes-title{
+    color: var(--main-color);
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Team info */
+.team{
+    background-color:var(--team-bg-color);
+
+}
+.team-block{
+    background-color:var(--whitey-color);
+}
+.team-member{
+font-size: 16px;
+font-weight: 500;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.team-profession{
+    color:var(--rare-color);
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Footer */
+.footer{
+    background-color:var(--hero-bg-color);
+}
+.address{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    letter-spacing: 0.03em;
+    font-weight: normal;
+        font-style: normal;
+}
+.address-location{
+    color: var(--whitey-color);
+    text-decoration: none;
+}
+/*  */
+/*  */
+/* PORTFOLIO */
+/* Buttons */
+.button-filter{
+    color:var(--main-color);
+    background-color:var(--team-bg-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+        border-radius: 4px;
+}
+.button-filter:hover {
+    color: var(--whitey-color);
+    background-color: var(--secondary-color);
+
+}
+.button-filter:focus {
+    color: var(--whitey-color);
+    background-color: var(--secondary-color);
+
+}
+
+/* MAIN */
+.card-pojects{
+
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+.card-info{
+
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
 }

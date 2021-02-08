@@ -1,1 +1,1 @@
-# github-goit
+# goit-markup-hw-02
